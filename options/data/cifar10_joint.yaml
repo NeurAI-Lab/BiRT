@@ -1,0 +1,5 @@
+data_set: CIFAR10
+initial_increment: 10
+increment: 10
+
+log_category: joint

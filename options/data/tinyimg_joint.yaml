@@ -1,0 +1,5 @@
+data_set: TINYIMG
+initial_increment: 200
+increment: 200
+
+log_category: joint
