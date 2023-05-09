@@ -21,7 +21,7 @@ DATA_DIR: Directory containing the datasets.<br />
 
 ### BiRT Training Script:
 
-To train BiRT on CIFAR-100 dataset 10 tasks setting with buffer size 200:
+To train BiRT on CIFAR-100 dataset 10 tasks setting with buffer size 500:
 ```
 python main.py --seed 42 --options options/data/cifar100_10-10.yaml options/data/cifar100_order1.yaml options/model/cifar_birt.yaml --data-path <DATA_DIR> --output-basedir <OUTPUT_DIR> --base-epochs 500 --batch_mixup --batch_logitnoise --ema_alpha 0.001 --ema_frequency 0.003 --distill_version l2 --distill_weight 0.05 --distill_weight_buffer 0.001 --rep_noise_weight 1.0 --repnoise_prob 0.5 --finetune_weight 2 --representation_replay --replay_from 1 --sep_memory --num_workers 8 --csv_filename results.csv --memory-size 500 --tensorboard --epochs 500
 ```
