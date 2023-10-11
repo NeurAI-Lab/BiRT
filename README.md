@@ -50,12 +50,10 @@ python main.py --seed 42 --options options/data/cifar100_10-10.yaml options/data
 If you find the code useful in your research please consider citing our paper:
 
 <pre>
-@misc{jeeveswaran2023birt,
-      title={BiRT: Bio-inspired Replay in Vision Transformers for Continual Learning}, 
-      author={Kishaan Jeeveswaran and Prashant Bhat and Bahram Zonooz and Elahe Arani},
-      year={2023},
-      eprint={2305.04769},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{jeeveswaran2023birt,
+  title={BiRT: Bio-inspired Replay in Vision Transformers for Continual Learning},
+  author={Jeeveswaran, Kishaan and Bhat, Prashant and Zonooz, Bahram and Arani, Elahe},
+  journal={arXiv preprint arXiv:2305.04769},
+  year={2023}
 }
 </pre>
